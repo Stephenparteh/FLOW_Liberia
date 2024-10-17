@@ -1,7 +1,5 @@
 const express = require('express');
 const app = express();
-const serverless = require("serverless-http");
-const router = express.Router();
 const port = 3400;
 
 // Static files render configurations
@@ -22,8 +20,10 @@ app.get('/', (req, res) => {
 
 // Hosting Configuration
 
-app.use("/.netlify/functions/app", router);
-module.exports.handler = serverless(app);
+// app.use("/.netlify/functions/app", router);
+// module.exports.handler = serverless(app);
+
+module.exports = {app};
 
 app.listen(port, () => {
     console.log(`Server is live on: ${port}`);
