@@ -22,8 +22,8 @@ app.get('/', (req, res) => {
 
 // Hosting Configuration
 
-// app.use("/.netlify/functions/app", router);
-// module.exports.handler = serverless(app);
+app.use("/.netlify/functions/app", router);
+module.exports.handler = serverless(app);
 
 app.listen(port, () => {
     console.log(`Server is live on: ${port}`);
