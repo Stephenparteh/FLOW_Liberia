@@ -13,10 +13,14 @@ app.set('view engine', 'ejs');
 // Set the views directory
 app.set('views', path.join(__dirname, 'views'));
 
-// Get Routes
+// =============================== Get Routes ==============================
 
 app.get('/', (req, res) => {
     res.render('aws_dashboard');
+});
+
+app.get('/community_kiosk', (req, res) => {
+    res.render('communities_kiosk_report');
 });
 
 

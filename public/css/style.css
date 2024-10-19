@@ -240,3 +240,7 @@ html[data-bs-theme="light"] .theme-toggle .fa-sun {
     box-shadow: none;
     border:none;
 }
+
+.sidebar-item-spacing2 {
+    padding-top: 0 !important;
+}
