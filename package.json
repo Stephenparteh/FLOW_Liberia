@@ -5,17 +5,13 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "netlify deploy --prod",
-    "start": "nodemon ./netlify/functions/app.js"
+    "start": "nodemon .app.js"
   },
   "author": "James Gayflor",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^4.21.1",
-    "netlify-cli": "^17.37.0",
-    "netlify-lambda": "^2.0.16",
-    "nodemon": "^3.1.7",
-    "serverless-http": "^3.2.0"
+    "nodemon": "^3.1.7"
   }
 }
