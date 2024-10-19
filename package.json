@@ -1,13 +1,12 @@
 {
   "name": "smart-water-management-system",
   "version": "1.0.0",
-  "description": "Smart Water Management System",
+  "description": "This is  a web based smart water management system",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon .app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "James Gayflor",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.10",
