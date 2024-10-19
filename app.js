@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
 const port = 3400;
-const serverless = require("serverless-http");
 const path = require('path');
 
 // Static files render configurations
